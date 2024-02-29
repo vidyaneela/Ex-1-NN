@@ -1,7 +1,7 @@
-<H3>ENTER YOUR NAME : M VIdya Neela</H3>  
+)<H3>ENTER YOUR NAME : M Vidya Neela</H3>  
 <H3>ENTER YOUR REGISTER NO : 212221230120</H3> 
 <H3>EX. NO.1</H3>
-<H3>DATE : 29-02-1024</H3> 
+
 <H1 ALIGN =CENTER> Introduction to Kaggle and Data preprocessing</H1>
 
 ## AIM:
@@ -89,48 +89,71 @@ print("\nLenght of X_test ",len(X_test))
 
 ## OUTPUT:
 ### Initial DataFrame : 
-![op](./nn1.png)
-![op](./nn2.png)
+![nn1](https://github.com/Haridharshini21500176/Ex-1-NN/assets/94168395/ca1b57e3-f44b-4f28-9918-8f8b5c4c9319)
+![nn2](https://github.com/Haridharshini21500176/Ex-1-NN/assets/94168395/3c727a18-a2b8-4265-8cdf-3a0b171b960e)
+
+
 ### X values : 
-![op](./nn3.png)
+![nn3](https://github.com/Haridharshini21500176/Ex-1-NN/assets/94168395/c95503f8-c7bc-4ae5-b39f-44b86f3e8356)
+
 ### y values :
-![op](./nn4.png)
+![nn4](https://github.com/Haridharshini21500176/Ex-1-NN/assets/94168395/b0f15bf3-1377-4ccd-ba62-a9a06764d558)
+
 ### Null count :
-![op](./nn5.png)
+![nn5](https://github.com/Haridharshini21500176/Ex-1-NN/assets/94168395/0eebd1af-ea1a-4ac1-bfdb-cbd688e96fdc)
+
 ### Duplicate :
-![op](./nn6.png)
+![nn6](https://github.com/Haridharshini21500176/Ex-1-NN/assets/94168395/6e983ae3-c56a-485a-abde-67f2a0664853)
+
 ### Description of the Column "CustomerId" : 
-![op](./nn7.png)
+![nn7](https://github.com/Haridharshini21500176/Ex-1-NN/assets/94168395/3f07a664-6796-4dc8-83a6-7d6cc02e58be)
+
 ### Description of the Column "Surname" : 
-![op](./nn8.png)
+![nn8](https://github.com/Haridharshini21500176/Ex-1-NN/assets/94168395/b9fa82ce-8ae4-4efb-a660-2e53cf2b8d75)
+
 ### Description of the Column "CreditScore" : 
-![op](./nn9.png)
+![nn9](https://github.com/Haridharshini21500176/Ex-1-NN/assets/94168395/0f0f44cc-365d-4cf6-9b7c-93148713abf7)
+
 ### Description of the Column "Geography" : 
-![op](./nn10.png)
+![nn10](https://github.com/Haridharshini21500176/Ex-1-NN/assets/94168395/063bbc55-baf0-49ed-b0a7-8647dcd14ef1)
+
 ### Description of the Column "Gender" : 
-![op](./nn11.png)
+![nn11](https://github.com/Haridharshini21500176/Ex-1-NN/assets/94168395/5661b643-ccb7-4c94-a5aa-d27e9e81d497)
+
+
 ### Description of the Column "Age" : 
-![op](./nn12.png)
+![nn12](https://github.com/Haridharshini21500176/Ex-1-NN/assets/94168395/9745ba09-567b-4e9f-a184-1e69b9dee580)
+
 ### Description of the Column "Tenure" : 
-![op](./nn13.png)
+![nn13](https://github.com/Haridharshini21500176/Ex-1-NN/assets/94168395/150cef86-3a7c-429f-a3b6-f69af8aa9172)
+
 ### Description of the Column "Balance" : 
-![op](./nn14.png)
+![nn14](https://github.com/Haridharshini21500176/Ex-1-NN/assets/94168395/a984d0b6-8eed-4fba-9234-9dcbf0d027d7)
+
 ### Description of the Column "NumOfProducts" : 
-![op](./nn15.png)
+![nn15](https://github.com/Haridharshini21500176/Ex-1-NN/assets/94168395/37e456ca-9248-4c49-a6f7-963b5dfd3059)
+
 ### Description of the Column "HasCrCard" : 
-![op](./nn16.png)
+![nn16](https://github.com/Haridharshini21500176/Ex-1-NN/assets/94168395/0a058378-00af-4ec4-83cb-7debd802f398)
+
 ### Description of the Column "IsActiveMember" : 
-![op](./nn17.png)
+![nn17](https://github.com/Haridharshini21500176/Ex-1-NN/assets/94168395/dda3193e-380c-4efc-8520-1f19871136c1)
+
 ### Description of the Column "EstimatedSalary" : 
-![op](./nn18.png)
+![nn18](https://github.com/Haridharshini21500176/Ex-1-NN/assets/94168395/4bde5b63-4c97-4925-9447-bd68dc0f988e)
+
 ### Description of the Column "Exited" : 
-![op](./nn19.png)
+![nn19](https://github.com/Haridharshini21500176/Ex-1-NN/assets/94168395/e0724338-304f-48cf-8cdf-139b63a8cd60)
+
 ### Dropping the non numerical columns :
-![op](./nn20.png)
+![nn20](https://github.com/Haridharshini21500176/Ex-1-NN/assets/94168395/f0448d6d-1047-41de-bd84-052ca2be343f)
+
 ### Data after applying Min Max Scaling: 
-![op](./nn21.png)
+![nn21](https://github.com/Haridharshini21500176/Ex-1-NN/assets/94168395/34245c6c-587d-4565-bc6c-dadf5da5576b)
+
 ### Values of X_train and X_test :
-![op](./n2n22.png)
+
+![n2n22](https://github.com/Haridharshini21500176/Ex-1-NN/assets/94168395/d68f53cb-6f08-4904-8e4c-8c46a81af39a)
 
 
 
